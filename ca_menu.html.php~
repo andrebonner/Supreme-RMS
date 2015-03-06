@@ -1,0 +1,37 @@
+  <a class="mainNav" href="#" id="mainLink" onmouseover="rolloverMenu(1, 'mainMenu');" onmouseout="rolloverMenu(0, 'mainMenu');">Prospect Management</a>
+  <div class="rolloverMenu" id="mainMenu" style="display: none;" onmouseover="rolloverMenu(1, 'mainMenu');" onmouseout="rolloverMenu(0, 'mainMenu');">
+    <a href="/svl/prospect_management?add">Add </a><br />
+   	<a href="/svl/prospect_management?search">Search </a><br />
+    <a href="#">Link 3</a><br />
+    <a href="#">Link 4</a>
+  </div>
+
+<!--<ul id="menu">
+	<li>
+		<a href = "/svl/prospect_management">Prospect Management</a> 
+		<ul id="submenu">
+			
+			<li>
+				<a href="/svl/prospect_management?add">Add </a>
+			</li>
+			
+			<li>
+				<a href="/svl/prospect_management?search">Search </a>
+			</li>
+			
+			
+		</ul>
+	
+	</li>	
+	<li>
+		<a href = "/svl/relocation_management">
+			<!--<img src="images/relocation-logo.jpg" width="80px" height="80px"/> 	-->
+	<!--		Relocation Management 
+		</a>
+	</li>	
+	<li>
+		<a href = "/svl/removal_management">Removal Management</a>
+	</li>	
+</ul>-->
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/svl_files/includes/logout.inc.html.php'; ?>
+

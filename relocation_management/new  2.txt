@@ -1,0 +1,31 @@
+
+jQuery(document).ready(function () {
+
+	$('#bus_anal_comp_date').Datepicker();
+	$('#pck_sub_to_pros_date').simpleDatepicker();
+	$('#pck_recd_by_pros_date').simpleDatepicker();
+	$('#contract_sub_to_pros_date').simpleDatepicker();
+	$('#contract_ret_date ').simpleDatepicker();
+	$('#sec_chk_req_date ').simpleDatepicker();
+	$('#sec_chk_comp_date ').simpleDatepicker();
+	$('#bnk_grant_recd_date ').simpleDatepicker();
+	$('#bnk_acc_req_date	').simpleDatepicker();
+	$('#tech_eval_sub_to_serv_prov_date ').simpleDatepicker();
+	$('#tech_eval_recd_date 	').simpleDatepicker();
+	$('#agent_config_date 		').simpleDatepicker();
+	$('#terminal_install_date		').simpleDatepicker();
+	/*$('input.two').simpleDatepicker({ startdate: 2008, enddate: 2012 });
+	$('input.three').simpleDatepicker({ chosendate: '9/9/2010', startdate: '6/10/2008', enddate: '7/20/2011' });
+	$('input.four').simpleDatepicker({ x: 45, y: 3 });*/
+});
+</script>
+
+
+
+<script language="JavaScript" src="../js/tabber.js"></script>
+<script language="JavaScript" src="../js/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../js/cal.js"></script>
+<script type="text/javascript" src="../js/ajaxPopulatefield.js"></script>
+
+

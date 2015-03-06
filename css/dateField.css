@@ -1,0 +1,19 @@
+/*STYLE MARK-UP*/
+/*general style for every element*/
+/**{font-family:Arial,Verdana,Tahoma,Helvetica,sans-serif;font-size:100%;}
+/*style for inputfield*/
+.input{border:1px solid #CCC;font-size:0.8em;}
+/*style for the days in the calendar*/
+td{border:1px solid #ABC;font-size:0.7em;text-align:center;width:26px}
+/*style for the days off the week in the calendar*/
+th{font-size:0.8em;font-weight:bolder}
+/*style for the container around the calendar*/
+.cal_container{background:#FFF;border:2px solid #666;padding:5px}
+/*style for the selected date*/
+.selectedDate{border:1px solid #FC0;color:#333;font-size:0.7em;font-weight:bolder;}
+/*style for not active days (=empty days)*/
+.notActive{border:1px solid #EFEFEF}
+/*style for the title*/
+.title{background:#FC0;border:0px;font-size:0.9em;font-weight:bolder;padding:5px}
+/*style for the prev and next buttons*/
+.nav{background:#FC0;border:0px;font-size:0.9em;font-weight:bolder;padding:5px}

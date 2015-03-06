@@ -1,0 +1,20 @@
+<?php
+ini_set('display_errors', 'On');
+//ob_start("ob_gzhandler");
+error_reporting(E_ALL & ~E_NOTICE);
+
+	include_once $_SERVER['DOCUMENT_ROOT'] .'/svl_files'. '/includes/helpers.inc.php'; 
+	
+	include $_SERVER['DOCUMENT_ROOT'] .'/svl_files'. '/includes/svl_db.inc.php';
+	
+	require_once $_SERVER['DOCUMENT_ROOT'] .'/svl_files'. '/includes/access.inc.php';
+	
+
+if (!userIsLoggedIn())
+{
+	include 'login.html.php';
+	exit();
+}
+
+include 'default.html.php';
+?>

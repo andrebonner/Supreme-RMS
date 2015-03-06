@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/XHTML1-strict.dtd">
+	
+<html xmlns = "http://www.w3.org/1999/xhtml" xml:lang = "en" lang = "en">
+	<head>
+		<title> SVL Prospect Management </title>
+		<meta http-equiv ="content-type" content = "text/html; charset=utf-8"/>
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href="roll_over_menu.css" rel="stylesheet" type="text/css" />	
+			<style>
+			body{
+
+			padding: 0;
+
+			margin: 0;
+
+			background: #fff;
+
+			}
+			#header{
+
+			width: 1000px;
+			
+			height: auto;
+
+			padding: 0px;
+
+			margin-left: auto;
+
+			margin-right: auto;
+
+			background: #ffc;
+
+			}
+			#mainwrapper{
+
+width: 1000px;
+
+margin-left: auto;
+
+margin-right: auto;
+
+}
+
+#col1{
+
+float: left;
+
+width: 180px;
+
+height: auto;
+
+padding: 0px;
+
+background: #eee;
+
+}
+
+#col2{
+
+float: left;
+
+width: 375px;
+
+padding: 10px;
+
+}
+#footer{
+
+clear: both;
+
+width: 1000px;
+
+padding: 10px;
+
+margin-left: auto;
+
+margin-right: auto;
+
+background: #ffc;
+
+}
+
+			
+	</style>
+
+
+
+<script src="roll_over_menu.js"></script>
+	</head>
+	
+	<body >
+	
+	<div id="header">
+	
+			<h1> SVL Customer Service Management System </h1>
+	</div>
+	<div id="mainwrapper">
+	<div id="col1">
+	
+	<?php 
+	if (userHasRole('Content Administrator'))
+{
+	include 'ca_menu.html.php';
+
+}
+
+
+if (userHasRole('Site Administrator'))
+{
+	include 'sa_menu.html.php';
+
+}
+?>
+</div>
+<div id="col2">
+	</div>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . '/svl_files/includes/footer.inc.html.php'; ?>
+	
+		

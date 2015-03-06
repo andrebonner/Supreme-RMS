@@ -1,0 +1,91 @@
+<!--<div id="container"> -->
+<a class="mainNav" href="prospect_management" id="mainLink1" onmouseover="rolloverMenu('mainLink1', 1, 'firstMenu');" onmouseout="rolloverMenu('mainLink1', 0, 'firstMenu');">Prospecting</a><br/>
+  <ul class="rolloverMenu" id="firstMenu" style="display: none;list-style-type: none;margin:0;padding:0;" onmouseover="rolloverMenu('mainLink1', 1, 'firstMenu');" onmouseout="rolloverMenu('mainLink1', 0, 'firstMenu');">
+    <li style="float: left;"><a href="prospect_management?add">Add </a>|</li>
+   	<li style="float: left;"><a href="prospect_management?search">Search </a></li><br />
+    
+  </ul>
+<a class="mainNav" href = "relocation_management" id="mainLink2" onmouseover="rolloverMenu('mainLink2', 1, 'secondMenu');" onmouseout="rolloverMenu('mainLink2', 0, 'secondMenu');">Relocation Management</a><br/>	
+ <ul class="rolloverMenu" id="secondMenu" style="display: none;list-style-type: none;margin:0;padding:0;" onmouseover="rolloverMenu('mainLink2', 1, 'secondMenu');" onmouseout="rolloverMenu('mainLink2', 0, 'secondMenu');">
+    <li style="float: left;"><a href="relocation_management?add">Add </a>|</li>
+        <li style="float: left;"><a href="relocation_management?search">Search </li>
+    
+  </ul>
+
+	<a class="mainNav" href = "removal_management" id="mainLink3" onmouseover="rolloverMenu('mainLink3', 1, 'thirdMenu');" onmouseout="rolloverMenu('mainLink3', 0, 'thirdMenu');">Removal Management</a><br/>	
+ <ul class="rolloverMenu" id="thirdMenu" style="display: none;list-style-type: none;margin:0;padding:0;" onmouseover="rolloverMenu('mainLink3', 1, 'thirdMenu');" onmouseout="rolloverMenu('mainLink3', 0, 'thirdMenu');">
+    <li style="float: left;"><a href="removal_management?add">Add </a>|</li>
+        <li style="float: left;"><a href="removal_management?search">Search </li>
+    
+  </ul>	
+	<a class="mainNav" href = "reports" id="mainLink4" onmouseover="rolloverMenu('mainLink4', 1, 'fourthMenu');" onmouseout="rolloverMenu('mainLink4', 0, 'fourthMenu');">Reports</a><br/>
+ <ul class="rolloverMenu" id="fourthMenu" style="display: none;list-style-type: none;margin:0;padding:0;" onmouseover="rolloverMenu('mainLink4', 1, 'fourthMenu');" onmouseout="rolloverMenu('mainLink4', 0, 'fourthMenu');">
+    <li style="float: left;"><a href="report?checklist">Checklist </a>|</li>
+        <li style="float: left;"><a href="report?performance">Performance Report </li>
+    
+  </ul>
+
+<a class="mainNav" href = "utilities" id="mainLink5" onmouseover="rolloverMenu('mainLink5', 1, 'fifthMenu');" onmouseout="rolloverMenu('mainLink5', 0, 'fifthMenu');">Utilities</a><br/>	
+	 <ul class="rolloverMenu" id="fifthMenu" style="display: none;list-style-type: none;margin:0;padding:0;" onmouseover="rolloverMenu('mainLink5', 1, 'fifthMenu');" onmouseout="rolloverMenu('mainLink5', 0, 'fifthMenu');">
+    <li style="float: left;"><a class="mainNav" href = "application_types">application types</a></li>
+
+	<li style="float: left;"><a class="mainNav" href = "bdo_officers">BDOs</a></li>	
+	<li style="float: left;"><a class="mainNav" href = "business_analysis_results">Business analysis result</a></li>	
+	<li style="float: left;"><a class="mainNav" href = "business_registration_types">Business registration types</a></li>	
+
+	<li style="float: left;"><a class="mainNav" href = "cities">Cities</a></li>	
+	<li style="float: left;"><a class="mainNav" href = "countries">Countries</a></li>	
+
+	<li style="float: left;"><a class="mainNav" href = "csr_officers">CSRs</a></li>	
+	<li style="float: left;"><a class="mainNav" href = "parish"> Parish </a></li>	
+	<li style="float: left;"><a class="mainNav" href = "postal_code"> Postal codes </a></li>	
+
+	<li style="float: left;"><a class="mainNav" href = "relocation_types"> Relocation types </a></li>
+	<li style="float: left;"><a class="mainNav" href = "security_provider"> Security Provider </a></li>	
+	<li style="float: left;"><a class="mainNav" href = "status">Status</a></li>	
+
+	<li style="float: left;"><a class="mainNav" href = "technical_service_provider">Technical service provider</a></li>	
+
+	<li style="float: left;"><a class="mainNav" href = "bus_trade_style">Trade styles</a></li>	
+
+
+
+	<li style="float: left;"><a class="mainNav" href = "filestore"> File store </a></li>	
+</ul>
+	<a class="mainNav" href = "users"> User Accounts </a><br/>	
+<!--</div>-->
+
+<!--<ul id="menu">
+	<li> 
+		<a href = "/svl/prospect_management">Prospect Management</a>
+		<ul id="submenu">
+			<li>
+				<a href="/svl/prospect_management?add">Add </a>
+			</li>
+			<li>
+				<a href="/svl/prospect_management?search">Search </a>
+			</li>
+		</ul>
+	</li>	
+	<li> <a href = "/svl/relocation_management">Relocation Management</a> </li>	
+	<li> <a href = "/svl/removal_management">Removal Management</a> </li>	
+	<li> <a href = "/svl/application_types">application types</a> </li>	
+	<li> <a href = "/svl/bdo_officers">BDOs</a> </li>	
+	<li> <a href = "/svl/business_analysis_results">Business analysis result</a> </li>	
+	<li> <a href = "/svl/business_registration_types">Business registration types</a> </li>	
+	<li> <a href = "/svl/cities">Cities</a> </li>	
+	<li> <a href = "/svl/countries">Countries</a> </li>	
+	<li> <a href = "/svl/csr_officers">CSRs</a> </li>	
+	<li> <a href = "/svl/parish"> Parish </a> </li>	
+	<li> <a href = "/svl/postal_code"> Postal codes </a> </li>	
+	<li> <a href = "/svl/relocation_types"> Relocation types </a> </li>
+	<li> <a href = "/svl/security_provider"> Security Provider </a> </li>	
+	<li> <a href = "/svl/status">Status</a> </li>	
+	<li> <a href = "/svl/technical_service_provider">Technical service provider</a> </li>	
+	<li> <a href = "/svl/bus_trade_style">Trade styles</a> </li>	
+
+	<li> <a href = "/svl/filestore"> File store </a> </li>	
+	<li> <a href = "/svl/users"> User Accounts </a> </li>	
+</ul>-->
+
+
